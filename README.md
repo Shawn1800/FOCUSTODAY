@@ -6,7 +6,7 @@
 
 ## Overview
 
-FOCUSTODAY is a productivity application designed with one clear purpose: to help you accomplish your most important tasks before the day ends. With a real-time countdown showing exactly how many hours remain in your day, FOCUSTODAY creates a gentle sense of urgency that encourages completion of what truly matters.
+FOCUSTODAY is an Android productivity application designed with one clear purpose: to help you accomplish your most important tasks before the day ends. With a real-time countdown showing exactly how many hours remain in your day, FOCUSTODAY creates a gentle sense of urgency that encourages completion of what truly matters.
 
 ## Key Features
 
@@ -33,34 +33,36 @@ Unlike traditional to-do applications that create never-ending task lists, FOCUS
 
 ## Getting Started
 
-1. Download FOCUSTODAY from your preferred app store
+1. Download FOCUSTODAY from the Google Play Store
 2. Set your typical day start and end times
 3. Add your first task with a deadline
 4. Start focusing on what matters most today
 
-## Installation
+## Development Setup
 
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/focustoday.git
 
-# Navigate to the project directory
-cd focustoday
+# Open the project in Android Studio
 
-# Install dependencies
-npm install
+# Build the project
+./gradlew build
 
-# Start the application
-npm start
+# Install on your device or emulator
+./gradlew installDebug
 ```
 
 ## Technology Stack
 
-- Frontend: React Native
-- State Management: Redux
-- Notifications: React Native Push Notification
-- Storage: AsyncStorage / SQLite
-- UI Components: Native Base
+- Language: Java
+- Platform: Android Native
+- Minimum SDK: Android 7.0 (API level 24)
+- Target SDK: Android 13 (API level 33)
+- Local Storage: Room Database
+- Notifications: Android NotificationManager
+- Background Processing: WorkManager
+- Architecture: MVVM with LiveData
 
 ## Screenshots
 
@@ -70,18 +72,26 @@ npm start
   <img src="https://via.placeholder.com/250x500?text=Task+Complete" alt="Task Complete" width="250"/>
 </div>
 
+## Permissions
+
+The app requires the following permissions:
+- `RECEIVE_BOOT_COMPLETED` - To restore alarms after device restart
+- `VIBRATE` - For notification alerts
+- `SCHEDULE_EXACT_ALARM` - For precise task deadline notifications
+
 ## Contributing
 
 We welcome contributions to FOCUSTODAY! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on how to get involved.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Coming Soon
 
 - Weekly patterns and insights about your productivity
-- Integration with calendar applications
+- Widget for home screen with time remaining
+- Google Calendar integration
 - Focus sessions with Pomodoro technique
 - Dark mode and additional themes
 
