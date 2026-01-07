@@ -79,9 +79,6 @@ The app requires the following permissions:
 - `VIBRATE` - For notification alerts
 - `SCHEDULE_EXACT_ALARM` - For precise task deadline notifications
 
-## Contributing
-
-We welcome contributions to FOCUSTODAY! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on how to get involved.
 
 ## License
 
