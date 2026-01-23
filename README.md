@@ -2,8 +2,6 @@
 
 **Focus on what matters today, before the day ends.**
 
-![FOCUSTODAY App](https://via.placeholder.com/800x400?text=FOCUSTODAY)
-
 ## Overview
 
 FOCUSTODAY is an Android productivity application designed with one clear purpose: to help you accomplish your most important tasks before the day ends. With a real-time countdown showing exactly how many hours remain in your day, FOCUSTODAY creates a gentle sense of urgency that encourages completion of what truly matters.
@@ -66,11 +64,9 @@ git clone https://github.com/yourusername/focustoday.git
 
 ## Screenshots
 
-<div align="center">
-  <img src="https://via.placeholder.com/250x500?text=Home+Screen" alt="Home Screen" width="250"/>
-  <img src="https://via.placeholder.com/250x500?text=Add+Task" alt="Add Task" width="250"/>
-  <img src="https://via.placeholder.com/250x500?text=Task+Complete" alt="Task Complete" width="250"/>
-</div>
+![WhatsApp Image 2026-01-23 at 2 28 36 PM](https://github.com/user-attachments/assets/af81014d-777f-4428-a733-2c0f2946cbeb)
+
+![WhatsApp Image 2026-01-23 at 2 28 37 PM](https://github.com/user-attachments/assets/210e11f3-2889-4d77-a5e1-a31a716c9a44)
 
 ## Permissions
 
